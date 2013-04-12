@@ -1,0 +1,28 @@
+<assembly>
+	<id></id>
+	<formats>
+		<format>tar.gz</format>
+	</formats>
+	<fileSets>
+		<fileSet>
+			<directory>dependencies</directory>
+		</fileSet>
+		<fileSet>
+			<directory>bin</directory>
+		</fileSet>
+		<fileSet>
+			<directory>log</directory>
+		</fileSet>
+		<fileSet>
+			<directory>conf</directory>
+		</fileSet>
+		<fileSet>
+			<directory>target</directory>
+			<includes>
+				<include>*.jar</include>
+			</includes>
+		</fileSet>
+
+	</fileSets>
+
+</assembly>
