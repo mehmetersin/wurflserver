@@ -34,6 +34,11 @@ public class WurfleServlet extends HttpServlet {
 		logger.debug("Request Parameters . Agent {} ,Capabilities {}", agent,
 				capabilities);
 
+		String remoteId = req.getRemoteAddr();
+		String remoteHost = req.getRemoteHost();
+		
+		
+		
 		try {
 			// ApplicationContext context = new ClassPathXmlApplicationContext(
 			// "application-context.xml");

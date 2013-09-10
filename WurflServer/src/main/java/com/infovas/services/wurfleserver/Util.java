@@ -7,12 +7,14 @@ import java.util.ResourceBundle;
 
 public class Util {
 
+	//mebitirgen
+	
 	static Properties configProp = null;
 
 	public String getConfig(String param) {
 
 		if (configProp == null) {
-
+ 
 			configProp = new Properties();
 
 			InputStream in = this.getClass().getClassLoader()
